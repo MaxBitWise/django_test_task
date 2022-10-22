@@ -5,7 +5,7 @@ class Date(models.Model):
     date = models.DateField(unique=True)
 
     def __str__(self):
-        return self.date
+        return f'{self.date}'
 
 
 class DataTable(models.Model):
